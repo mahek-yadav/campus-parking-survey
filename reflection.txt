@@ -1,0 +1,9 @@
+DBMS Assignment Reflection
+
+The campus parking data was grouped by car type using GROUP BY and counted using COUNT. The most common category in the sample data was SUV, while MUV was the least common. The bar chart should use the counts returned by the query so that the visualisation matches the SQL output.
+
+The expense table was analysed using SUM, AVG, MAX and MIN. SUM gives the total amount spent, AVG gives the average recorded expense, and MAX and MIN identify the highest and lowest individual expenses. Grouping expenses by category helps identify where the most money was spent.
+
+WHERE filters individual rows before grouping, whereas HAVING filters grouped results after GROUP BY. For example, WHERE amount > 100 selects individual transactions above 100, while HAVING SUM(amount) > 150 selects categories whose combined spending exceeds 150.
+
+After reviewing my actual seven-day expenses, I can identify the category that accounts for the largest share of spending and decide whether I should reduce non-essential expenses. The example records in this package must be replaced with my own observations and expenses before this reflection is submitted.
